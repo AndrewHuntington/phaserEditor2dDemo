@@ -237,6 +237,24 @@
             "scope": "CLASS",
             "x": 48,
             "y": 16
+        },
+        {
+            "type": "Text",
+            "id": "89d103e6-f3d3-4c46-a8f4-6aa010f7d3b3",
+            "label": "moveText",
+            "x": 128,
+            "y": 544,
+            "text": "←　→ move",
+            "fontSize": "32px"
+        },
+        {
+            "type": "Text",
+            "id": "51695833-f3df-4f48-afdb-4bfa4803d697",
+            "label": "jumpText",
+            "x": 512,
+            "y": 544,
+            "text": "↑ jump",
+            "fontSize": "32px"
         }
     ],
     "plainObjects": [
@@ -320,6 +338,10 @@
                 "a3fd96c0-db4c-4e4a-ba22-1cc73f735a5c",
                 "ca1fe4e8-e0d3-4cfe-a358-fa4118d11b8a"
             ]
+        },
+        {
+            "id": "2dcdab7a-7843-4594-8d9b-bc8bd6e9423f",
+            "label": "text"
         }
     ]
 }

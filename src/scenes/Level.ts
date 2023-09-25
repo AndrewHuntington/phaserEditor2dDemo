@@ -114,8 +114,19 @@ export default class Level extends Phaser.Scene {
 		const scoreText = new ScorePrefab(this, 48, 16);
 		this.add.existing(scoreText);
 
+		// moveText
+		const moveText = this.add.text(128, 544, "", {});
+		moveText.text = "←　→ move";
+		moveText.setStyle({ "fontSize": "32px" });
+
+		// jumpText
+		const jumpText = this.add.text(512, 544, "", {});
+		jumpText.text = "↑ jump";
+		jumpText.setStyle({ "fontSize": "32px" });
+
 		// lists
 		const platforms = [bottomPlatform, platform_2, platform_1, platform];
+		const text: Array<any> = [];
 
 		// player_platforms_collider
 		this.physics.add.collider(player, platformsLayer.list);
@@ -144,6 +155,7 @@ export default class Level extends Phaser.Scene {
 		this.rightKey = rightKey;
 		this.upKey = upKey;
 		this.platforms = platforms;
+		this.text = text;
 
 		this.events.emit("scene-awake");
 	}
@@ -157,6 +169,7 @@ export default class Level extends Phaser.Scene {
 	private rightKey!: Phaser.Input.Keyboard.Key;
 	private upKey!: Phaser.Input.Keyboard.Key;
 	private platforms!: PlatformPrefab[];
+	private text!: Array<any>;
 
 	/* START-USER-CODE */
   private gameOver: boolean = false;
