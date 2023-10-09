@@ -2,6 +2,13 @@
     "section1": {
         "files": [
             {
+                "url": [
+                    "assets/458258__matrixxx__retro-jump-01.wav"
+                ],
+                "type": "audio",
+                "key": "458258__matrixxx__retro-jump-01"
+            },
+            {
                 "url": "assets/animations.json",
                 "type": "animation",
                 "key": "animations"
