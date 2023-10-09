@@ -3,6 +3,8 @@
     "sceneType": "SCENE",
     "settings": {
         "snapEnabled": true,
+        "snapWidth": 1,
+        "snapHeight": 1,
         "exportClass": true,
         "autoImport": true,
         "preloadPackFiles": [],
@@ -327,21 +329,5 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 4
-    },
-    "lists": [
-        {
-            "id": "6a6ef784-2eb0-4562-b9fb-b96f91fbc134",
-            "label": "platforms",
-            "objectIds": [
-                "358972a7-2f9c-4b59-8e67-a2b0363f4a74",
-                "6c86b264-16a6-41fc-8111-ed0f0b0c4f6e",
-                "a3fd96c0-db4c-4e4a-ba22-1cc73f735a5c",
-                "ca1fe4e8-e0d3-4cfe-a358-fa4118d11b8a"
-            ]
-        },
-        {
-            "id": "2dcdab7a-7843-4594-8d9b-bc8bd6e9423f",
-            "label": "text"
-        }
-    ]
+    }
 }
